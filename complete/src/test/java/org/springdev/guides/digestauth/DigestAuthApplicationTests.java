@@ -39,7 +39,7 @@ public class DigestAuthApplicationTests {
 				get("/").with(
 						digest("user")   // <5>
 						.password("password")
-						.realm("Spring Books")))
+						.realm("Spring Dev")))
 			.andExpect(status().isOk());  // <6>
 	}
 

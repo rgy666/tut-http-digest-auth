@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {  // <3>
 	
 	public DigestAuthenticationEntryPoint authenticationEntryPoint() {  // <6>
 		DigestAuthenticationEntryPoint authenticationEntryPoint = new DigestAuthenticationEntryPoint();
-		authenticationEntryPoint.setRealmName("Spring Books");
+		authenticationEntryPoint.setRealmName("Spring Dev");
 		authenticationEntryPoint.setKey("spring");
 		
 		return authenticationEntryPoint;
