@@ -1,0 +1,8 @@
+= 使用Spring Security实现HTTP Digest认证
+rain
+2018-06-05
+
+.概要
+本文介绍通过一个示例来讲解如何启用HTTP Digest认证来保护Web应用。
+
+文章地址：https://springdev.io/guides/tutorials/http-digest-auth/
